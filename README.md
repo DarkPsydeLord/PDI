@@ -41,5 +41,5 @@
   
   ![Banner](https://user-images.githubusercontent.com/23390253/56400747-1c4da380-621b-11e9-88df-1e01cf050e81.jpg)
   
-  -Contact-
-  tacoder@outlook.com
+  **-Contact-**
+    tacoder@outlook.com
