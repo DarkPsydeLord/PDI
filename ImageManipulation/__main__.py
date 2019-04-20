@@ -7,7 +7,13 @@ import Tools.keepimgalive as w
 
 filename = f.openfile()
 s.show(filename, name="Original")
-gris = tc.graytransform(filename)
-s.show(gris, name="Gris")
+# gray = tc.graytransform(filename)
+# s.show(gray, name="Gris")
+# binary = tc.binarytransform(filename)
+# s.show(binary, name="Binary")
+# invbinary = tc.invbinarytransform(filename)
+# s.show(invbinary, name="Inverted Binary")
+adpbinary = tc.adpbinarytransform(filename)
+s.show(adpbinary, name="Adaptative Binary")
 w.wait()
 
