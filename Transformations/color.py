@@ -10,9 +10,9 @@ def graytransform(filename):
 
 
 def negativetransform(filename):
-
-    bgr2gray = graytransform(filename)
-    negative = cv2.bitwise_not(bgr2gray)
+    # To convert to negative image needs to be gray for better results
+    bgr2gray = graytransform(filename)  # method to convert to gray
+    negative = cv2.bitwise_not(bgr2gray)  # this method is used to change to negative
     return negative
 
 
