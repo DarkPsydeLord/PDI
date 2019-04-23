@@ -16,7 +16,7 @@ s.show(filename, name="Original")
 # s.show(invbinary, name="Inverted Binary")
 #adpbinary = tc.adpbinarytransform(filename)
 #s.show(adpbinary, name="Adaptative Binary")
-gauss = tf.gaussian(filename, 9, 9, 3, 3)
+gauss = tf.gaussian(filename, 3, 3, matrixsize=(27, 27))
 s.show(gauss, name="Gaussian Filter")
 w.wait()
 
